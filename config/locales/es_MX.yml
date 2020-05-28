@@ -162,7 +162,7 @@ es_MX:
         username: Nombre de usuario
       title: Administrar usuarios
   add_to_google_calendar: "Agregar a calendario de Google"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Videoconferencias
   bigbluebutton_exception: Oh no! Ocurrió un error al iniciar la sesión.
   cancel: Cancelar
   cookies:
