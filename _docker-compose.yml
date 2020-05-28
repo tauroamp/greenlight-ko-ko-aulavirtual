@@ -3,10 +3,8 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-#    image: bigbluebutton/greenlight:v2
-    image: greenlight-ko-ko-aulavirtual-new:v2
-#   container_name: greenlight-v2
-    container_name: greenlight-ko-ko-aulavirtual-v2
+    image: bigbluebutton/greenlight:v2
+    container_name: greenlight-v2
     env_file: .env
     restart: unless-stopped
     ports:
@@ -34,4 +32,4 @@ services:
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=1ab91d055e0d3e06
+      - POSTGRES_PASSWORD=password
