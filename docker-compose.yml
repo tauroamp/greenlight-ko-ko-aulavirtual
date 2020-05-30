@@ -5,6 +5,7 @@ services:
     entrypoint: [bin/start]
 #    image: bigbluebutton/greenlight:v2
     image: kkglnew:release-v2
+#    container_name: greenlight-v2
     container_name: kkgreenlight-v2
     env_file: .env
     restart: unless-stopped

@@ -29,11 +29,13 @@
     <% end %>
 
     <title><%= t("bigbluebutton") %></title>
-    <meta property="og:title" content="<%= t("bigbluebutton", locale: :en) %>" />
+    <link href="https://koandko.com.mx/templates/ja_appolio/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <meta property="og:title" content="<%= t("bigbluebutton", locale: :es_MX) %>" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="<%= t("landing.about", href: "Greenlight", locale: :en) %>" />
+    <meta property="og:description" content="<%= t("landing.about", href: "Greenlight", locale: :es_MX) %>" />
     <meta property="og:url" content="<%= request.base_url %>" />
-    <meta property="og:image" content="<%= logo_image %>" />
+    <!-- meta property="og:image" content="<%= logo_image %>" / -->
+    <meta property="og:image" content="https://koandko.com.mx/templates/ja_appolio/favicon.ico" type="image/vnd.microsoft.icon"/>
 
     <meta name="viewport" content= "width=device-width, user-scalable=no">
     <%= csrf_meta_tags %>
